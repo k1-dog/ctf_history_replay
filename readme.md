@@ -4,6 +4,6 @@
 ## 已有镜像
 ```plaintext
 docimg/ctf-2020-dxty-apitest
-docimg/ctf-2020-dxty-apereocas
+docimg/ctf-2020-dxty-apereocas # 有问题
 
 ```
