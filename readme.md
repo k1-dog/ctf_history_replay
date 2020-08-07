@@ -9,4 +9,5 @@ docimg/ctf-2020-dxty-apereocas # 有问题
 
 // 2020-WMCTF
 docimg/ctf-2020-wmctf-mpga
+docimg/ctf-2020-wmctf-mpga2
 ```
