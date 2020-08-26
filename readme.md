@@ -3,6 +3,9 @@
 
 ## 已有公开镜像
 ```plaintext
+// 2019-NCTF
+docimg/ctf-2019-nctf-fxc
+
 // 2020-电信天翼杯
 docimg/ctf-2020-dxty-apitest
 docimg/ctf-2020-dxty-apereocas # 有问题

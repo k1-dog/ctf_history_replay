@@ -1,3 +1,5 @@
 .idea/*
 common.md
 node_modules/*
+*.zip
+*.war

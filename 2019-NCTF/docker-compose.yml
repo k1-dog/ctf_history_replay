@@ -1,0 +1,9 @@
+version: '2'
+services:
+  fxc:
+    build: ./fake_xml_cookbook
+    image: docimg/ctf-2019-nctf-fxc
+    ports:
+      - "6666:80"
+    restart: always
+    container_name: fake_xml_cookbook
