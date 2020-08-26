@@ -5,6 +5,8 @@
 ```plaintext
 // 2019-NCTF
 docimg/ctf-2019-nctf-fxc
+docimg/ctf-2019-nctf-txc
+docimg/ctf-2019-nctf-txc-isrc
 
 // 2020-电信天翼杯
 docimg/ctf-2020-dxty-apitest

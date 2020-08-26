@@ -7,3 +7,36 @@ services:
       - "6666:80"
     restart: always
     container_name: fake_xml_cookbook
+  txc:
+    build:
+      context: ./true_xml_cookbook
+      dockerfile: Dockerfile-osrc
+    image: docimg/ctf-2019-nctf-txc
+    ports:
+      - "6666:80"
+    restart: always
+    container_name: true_xml_cookbook
+    networks:
+      extnetwork:
+        ipv4_address: 192.168.1.2
+    depends_on:
+      - txc-isrc
+  txc-isrc:
+    build:
+      context: ./true_xml_cookbook
+      dockerfile: Dockerfile-isrc
+    image: docimg/ctf-2019-nctf-txc-isrc
+    expose:
+      - "80"
+    restart: always
+    container_name: true_xml_cookbook_isrc
+    networks:
+      extnetwork:
+        ipv4_address: 192.168.1.8
+
+networks:
+  extnetwork:
+    ipam:
+      config:
+        - subnet: 192.168.1.0/24
+          gateway: 192.168.1.1
