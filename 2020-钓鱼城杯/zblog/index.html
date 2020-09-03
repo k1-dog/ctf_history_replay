@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Kodinger">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="my-login-page">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Blog</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-dark underline" href="/">Home</a>
+      </nav>
+    </div>
+	<section class="h h-100">
+		<div class="container h-100">
+			<h1 class="articles">Your articles</h1>
+			<div id="article_list" class="row justify-content-md-center">
+			        <a href="?title=hello" class="card fat col-md-5 article-card">
+            			<div class="card-body">
+            			<b class="text-info article">title:</b>hello
+            			</div>
+            		</a>
+            		<a href="?title=My+First+Blog" class="card fat col-md-5 article-card">
+                        <div class="card-body">
+                        <b class="text-info article">title:</b>My First Blog
+                        </div>
+                    </a>
+			</div>
+			<div class="footer">
+				Copyright &copy; 2020 &mdash; zzm
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
