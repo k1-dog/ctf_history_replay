@@ -12,6 +12,7 @@
 | 2020-WMCTF      | make php great again2 | docimg/ctf-2020-wmctf-mpga2                                | 80                         |
 | 2020-钓鱼城杯   | easyweb               | docimg/ctf-2020-dycb-easyweb                               | 80，还需禁止容器内访问外网 |
 | 2020-GACTF      | simpleflask           | docimg/ctf-2020-gactf-simpleflask                          | 5000                       |
+| 2020-巅峰极客   | meowworld             | docimg/ctf-2020-dfjk-meowworld                             | 80                         |
 
 
 

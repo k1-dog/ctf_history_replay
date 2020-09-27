@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    build: .
+    image: docimg/ctf-2020-dfjk-meowworld
+    ports:
+      - "6666:80"
+    container_name: meowworld
+    environment:
+      - FLAG=flag{88888888-8888-8888-8888-888888888888}
